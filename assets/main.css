@@ -1,0 +1,23 @@
+.basket {
+    display: none;
+}
+
+.element-container {
+    display: grid;
+    grid-template-columns:  180px auto;
+}
+
+.picture > img{
+    width: 150px;
+    height: 150px;
+}
+
+.quantity {
+    width: 100px;
+    display: inline;
+}
+
+.add_to_basket {
+    position: relative;
+    top: 5px;
+}
